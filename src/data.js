@@ -3,7 +3,7 @@ import {
   FiYoutube,
   FiInstagram,
   FiGithub,
-  FiDribbble,
+  FiLinkedin,
   FiLayout,
   FiSettings,
   FiPenTool,
@@ -74,20 +74,20 @@ export const navigation = [
 export const social = [
   {
     icon: <FiYoutube />,
-    href: '',
+    href: 'https://www.youtube.com/@a32fred',
   },
   {
     icon: <FiInstagram />,
-    href: '',
+    href: 'https://instagram.com/a32fred',
   },
   {
     icon: <FiGithub />,
-    href: '',
+    href: 'https://github.com/a32fred',
   },
   {
-    icon: <FiDribbble />,
-    href: '',
-  },
+    icon: <FiLinkedin />,
+    href: 'https://linkedin.com/in/frederico-carlos'
+  }
 ];
 
 // companies

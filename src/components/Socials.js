@@ -1,9 +1,15 @@
 import React from 'react';
 
-// import { Container } from './styles';
+import { social } from '../data';
 
 function Socials() {
-  return <div>Socials</div>;
+  return <ul className='flex space-x-6'>
+    {social.map((item, index)=>{
+      return <li className='flex justify-center items-center text-accent' key={index}>
+        <a href={item.href} target='_blank'>{item.icon}</a>
+      </li>
+    })}
+  </ul>;
 }
 
 export default Socials;
