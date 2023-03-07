@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 
-import Logo from '../assets/img/maybe-logo.png';
 import Nav from './Nav';
 import NavMobile from './NavMobile';
 import Socials from './Socials';
