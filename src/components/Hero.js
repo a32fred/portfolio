@@ -10,8 +10,17 @@ function Hero() {
         <div className='flex-1 flex flex-col items-center lg:items-start'>
           <p className='text-lg text-accent mb-[22px]'>Oi!!, Sou o Fred 🚀</p>
           <h1 className='text-4xl leading-[44px] md:text-5x1 md:leading-tight lg:text-7x1 lg:leading-[1.2] font-bold md:tracking-[-2px]'>
-            Eu Desenvolvo Sites <br/> & Aplicações Web
+            Eu Desenvolvo Sites <br /> & Aplicações Web
           </h1>
+          <p className='pt-6 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left'>
+          Meu nome é Frederico,
+          e sou um Desenvolvedor iniciante com experiência em React JS, Next JS, Node JS,
+          e com foco no backend. Eu estou cursando Análise e Desenvolvimento de Sistemas pela Estácio EAD.
+          Ao longo da minha vida, eu adquiri habilidades em sistemas linux,
+          e desenvolvimento de aplicações web.
+          </p>
+
+          <button className='btn btn-md bg-accent hover:bg-accent-hover md:btn-lg'>Trabalhe Comigo!</button>
         </div>
         {/*img side*/}
         <div className='hidden lg:flex flex-1 justify-end items-end h-full'>
