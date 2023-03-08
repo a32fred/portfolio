@@ -14,10 +14,7 @@ function Hero() {
           </h1>
           <p className='pt-6 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left'>
           Meu nome é Frederico,
-          e sou um Desenvolvedor iniciante com experiência em React JS, Next JS, Node JS,
-          e com foco no backend. Eu estou cursando Análise e Desenvolvimento de Sistemas pela Estácio EAD.
-          Ao longo da minha vida, eu adquiri habilidades em sistemas linux,
-          e desenvolvimento de aplicações web.
+          e sou um Desenvolvedor Junior com experiência em React JS & Node JS.
           </p>
 
           <button className='btn btn-md bg-accent hover:bg-accent-hover md:btn-lg'>Trabalhe Comigo!</button>

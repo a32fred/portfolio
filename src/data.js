@@ -12,12 +12,6 @@ import {
   FiMapPin,
 } from 'react-icons/fi';
 
-// companies icons
-import FreelancerBrandIcon from './assets/img/brands/freelancer.png';
-import UpworkBrandIcon from './assets/img/brands/upwork.png';
-import FiverBrandIcon from './assets/img/brands/fiverr.png';
-import BehanceBrandIcon from './assets/img/brands/behance.png';
-import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
 
 // projects images
 import Project1 from './assets/img/projects/p1.webp';
@@ -90,29 +84,7 @@ export const social = [
   }
 ];
 
-// companies
-export const brands = [
-  {
-    img: FreelancerBrandIcon,
-    href: '',
-  },
-  {
-    img: UpworkBrandIcon,
-    href: '',
-  },
-  {
-    img: FiverBrandIcon,
-    href: '',
-  },
-  {
-    img: BehanceBrandIcon,
-    href: '',
-  },
-  {
-    img: DribbbleBrandIcon,
-    href: '',
-  },
-];
+
 
 // projects
 export const projectsData = [
